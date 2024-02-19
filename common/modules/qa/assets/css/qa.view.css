@@ -1,0 +1,51 @@
+.qa-view-aside .qa-created {
+    float: right;
+}
+
+.qa-view-text {
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.qa-view-text img {
+    max-width: 100%;
+    width: auto;
+}
+
+.qa-view-meta .qa-edit-links {
+    float: right;
+}
+
+.qa-view-meta:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.qa-view-question {
+    margin-bottom: 10px;
+}
+
+.qa-view-answer {
+    min-height: 100px;
+    margin-top: 10px;
+}
+
+.qa-view-answer-aside .qa-created {
+    margin-bottom: 10px;
+}
+
+.qa-view-heading {
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.qa-view-answers-heading .qa-view-title {
+    float: left;
+    margin: 0;
+}
+
+.qa-view-answers-heading .qa-view-tabs {
+    float: right;
+    border-bottom: none;
+}

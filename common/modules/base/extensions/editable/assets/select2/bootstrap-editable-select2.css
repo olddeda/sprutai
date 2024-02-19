@@ -1,0 +1,17 @@
+.select2-container {
+    min-width: 100% !important;
+}
+
+.editable-input .select2-container .select2-selection--single {
+    height: 31px;
+}
+
+.editable-input .select2-container .select2-selection--single .select2-selection__rendered {
+    _line-height: 17px;
+    _padding-left: 0px;
+    _padding-right: 5px;
+}
+
+.editable-input .select2-container .select2-selection--single .select2-selection__arrow {
+    height: 29px;
+}

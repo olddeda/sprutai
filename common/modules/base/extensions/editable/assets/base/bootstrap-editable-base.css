@@ -1,0 +1,15 @@
+.editable-button {
+    display: inline-block;
+}
+
+.editable-button-input {
+    display: block;
+    _position: absolute;
+    visibility: hidden;
+    height: 0px;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    font-size: 0;
+}

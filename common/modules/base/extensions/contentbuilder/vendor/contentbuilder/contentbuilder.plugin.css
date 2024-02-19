@@ -1,0 +1,122 @@
+#divToolCodeSettings {
+    display: none;
+    width: 30px;
+    height: 35px;
+    white-space: nowrap;
+    position: absolute;
+    z-index: 10000;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#divToolCodeSettings #lnkCodeSettings {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    opacity: 0.8;
+    background: rgba(233, 84, 0, 0.9);
+    cursor: pointer;
+    font-size: 14px;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center
+}
+
+#btnCodeMirrorEditorCancel {
+    float: left;
+}
+
+#btnCodeMirrorEditorOk {
+    float: right;
+}
+
+#md-code-mirror .md-body,
+#md-code-mirror .md-modal-handle,
+#md-code-mirror .md-footer {
+    background-color: #f7f7f7;
+}
+
+#md-code-mirror .CodeMirror {
+    border-right: 30px solid #f7f7f7 !important;
+    position: relative;
+}
+
+#md-code-mirror .CodeMirror:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    right: 0px;
+    height: 1px;
+    background: #ddd;
+    z-index: 1000;
+}
+
+#md-code-mirror .CodeMirror:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 1px;
+    background: #ddd;
+    z-index: 1000;
+}
+
+#_md-code-mirror .md-modal-handle {
+    position: relative;
+}
+
+#_md-code-mirror .md-modal-handle:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    right: 30px;
+    height: 1px;
+    background: #ddd;
+    z-index: 1000;
+}
+
+#md-code-mirror .md-footer {
+    position: relative;
+    padding-top: 1px;
+}
+
+#md-code-mirror .md-footer:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    right: 30px;
+    height: 1px;
+    background: #ddd;
+    z-index: 1000;
+}
+
+#md-code-mirror .select2 {
+    margin: 0px 30px 10px 30px;
+    display: block;
+}
+
+#md-code-mirror .select2-selection {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+    background-color: #f7f7f7;
+    border-color: #ddd;
+}
+
+

@@ -1,0 +1,13 @@
+
+.qa-list .question-meta {
+    float: right;
+    text-align: right;
+}
+
+.qa-list .qa-summary {
+    margin-left: 208px;
+}
+
+.qa-index-add-button {
+    float: right;
+}

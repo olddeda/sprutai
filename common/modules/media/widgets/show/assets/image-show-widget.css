@@ -1,0 +1,36 @@
+.thumbnail {
+    margin-bottom: 0;
+}
+
+.thumbnail .thumbnail-wrapper {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #eeeeee;
+}
+
+.thumbnail .thumbnail-wrapper .glyphicon {
+    top: 0;
+    display: table-cell;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #aaaaaa;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.0vw;
+}
+
+.grid-view .thumbnail {
+    margin-bottom: 0;
+}
+
+.images-show-widget {
+    display: block;
+}
+
+.images-show-widget .thumbnail {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+}

@@ -1,0 +1,57 @@
+.slim {
+    padding: 5px;
+    border: 1px solid #ddd;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.slim[data-state*='empty']:hover {
+    background-color: #ffffff;
+}
+
+.slim[data-state*='empty']:hover .slim-area .slim-status {
+    background: #dddddd;
+}
+
+.slim .slim-area .slim-status {
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    background: #eeeeee;
+}
+
+.slim-popover {
+    background-color: #efefef;
+}
+
+.slim-image-editor-btn {
+    color:#999;
+}
+
+.slim-image-editor-preview::after {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.slim-crop-area button {
+    background: #fda085;
+    box-shadow: none;
+}
+
+.slim-crop-area {
+    position: absolute;
+    box-shadow: inset 0 0 0 1px rgba(253, 160, 133, 0.75), 0 0 0 1px rgba(253, 160, 133, 0.75);
+}
+
+.slim-image-editor .slim-editor-btn-group button.btn-primary {
+    background: inherit;
+    color: #fff;
+    background-color: #fda085;
+    border-color: #fd9c80;
+    box-shadow: none;
+}
+
+.slim-upload-status[data-state="success"] {
+    background-color: #fda085;
+    color: #ffffff;
+}

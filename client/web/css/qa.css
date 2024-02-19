@@ -1,0 +1,72 @@
+.list-group-item.qa-item {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.qa-view-text {
+    min-height: auto;
+    margin-bottom: 0px;
+}
+
+.qa-view-text ol {
+    margin-left: 0;
+    padding-left: 15px;
+}
+
+.qa-view-answers-heading {
+    margin-top: 20px;
+}
+
+.qa-panel .mini-counts {
+    margin-bottom: 1px;
+}
+
+.qa-created {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.qa-vote {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: top;
+}
+
+.qa-favorite {
+    display: inline-block;
+}
+
+.qa-view-answers .page-header {
+    border: 0;
+}
+
+.qa-view-answers-heading {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.qa-view-answers-heading .qa-view-tabs {
+    display: inline-block;
+    float: none;
+}
+
+#answer-form .redactor-toolbar {
+    box-shadow: none;
+}
+
+.qa-view-answer .qa-view-text img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+.qa-view-answer-form .redactor-editor img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+.question-heading.list-group-item-heading {
+    font-weight: normal;
+}

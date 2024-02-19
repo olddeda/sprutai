@@ -1,0 +1,21 @@
+.year-widget .col-sm-6:first-child {
+    padding-right: 4px;
+}
+
+.year-widget .col-sm-6:last-child {
+    padding-left: 4px;
+}
+
+@media screen and (max-width: 767px) {
+    .year-widget .col-sm-6 {
+        margin-bottom: 8px;
+    }
+
+    .year-widget .col-sm-6:first-child {
+        padding-right: 15px;
+    }
+
+    .year-widget .col-sm-6:last-child {
+        padding-left: 15px;
+    }
+}

@@ -1,0 +1,11 @@
+.grid-stack-item-content .panel {
+    margin: 0;
+}
+
+.row-table {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}

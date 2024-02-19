@@ -1,0 +1,417 @@
+.is-container {
+    margin: 90px auto;
+    max-width: 1050px;
+    width: auto;
+    padding: 0 35px;
+    box-sizing: border-box;
+}
+
+.contentbuilder.is-container.is-container-left {
+    margin: 30px 50px;
+}
+
+.contentbuilder-content p,
+.contentbuilder-content td,
+.contentbuilder-content li,
+.contentbuilder-content label {
+    word-break: break-word;
+    font-size: 16px;
+}
+
+@media all and (max-width: 1080px) {
+    .is-container {
+        margin: 0;
+    }
+    .contentbuilder.is-container.is-container-left {
+        margin: 0px 10px;
+    }
+
+    .contentbuilder-content h2 {
+        margin: 0;
+    }
+
+    .contentbuilder-content .quote {
+        margin: 0;
+    }
+
+    .contentbuilder-content p {
+        margin: 0;
+    }
+
+    .contentbuilder-content .row img {
+        margin: 0;
+    }
+
+    .contentbuilder-content .quote > i {
+        left: 0;
+        font-size: 1em;
+    }
+}
+
+#divTool {
+    padding-top: 70px;
+    padding-bottom: 15px;
+    background-color: rgba(253, 160, 133, 0.9);
+    z-index: 1000;
+}
+
+#divTool #lnkToolOpen {
+    background-color: rgba(253, 160, 133, 0.9);
+    width: 40px;
+    height: 50px;
+    left: -40px;
+    top: 50%;
+    margin-top: -25px;
+}
+
+#divTool #lnkToolOpen:hover {
+    background-color: rgba(253, 160, 133, 0.7);
+}
+
+#divTool #lnkToolOpen .cb-icon-left-open-big,
+#divTool #lnkToolOpen .cb-icon-right-open-big {
+    font-size: 30px !important;
+    color: #ffffff;
+    margin-left: -2px;
+}
+
+#divTool #selSnips {
+    width: 194px !important;
+}
+
+#divSnippetList {
+    border-top: 15px solid transparent !important;
+}
+
+#divSnippetList div {
+    _width: 225px;
+}
+
+#divSnippetList div img {
+    min-width: 90px;
+    max-width: 225px;
+}
+
+#divSnippetList div:hover img {
+    opacity: 0.8;
+}
+
+#divTool .select2 {
+    _z-index: 9999;
+    width: 194px !important;
+    margin-left: 18px;
+}
+
+#divTool .select2 .select2-selection__rendered {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#divFrameLink {
+    width: auto;
+    padding: 0px 5px;
+    margin: 20px 0;
+    background-color: rgba(253, 160, 133, 0.9);
+    border-radius: 0;
+}
+
+#divRteTable {
+    width: 81px;
+    margin-top: -15px;
+    margin-left: 5px;
+}
+
+#divRteTable #btnEditTable,
+#divRteTable #btnDeleteTable {
+    background-color: rgba(253, 160, 133, 0.9);
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    line-height: 37px;
+}
+
+#divRteTable #btnEditTable {
+    border-right: 1px solid #fff;
+}
+
+#divRteTable #btnEditTable:hover,
+#divRteTable #btnDeleteTable:hover {
+    background-color: rgba(253, 160, 133, 0.7);
+}
+
+.contentbuilder.is-container {
+    margin: 15px auto;
+}
+
+.contentbuilder-title textarea {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    line-height: 32px;
+    min-height: 37px;
+}
+
+.contentbuilder-title.has-error textarea::-webkit-input-placeholder {
+    color: #d9534f;
+}
+
+.contentbuilder-title.has-error textarea:-moz-placeholder {
+    color: #d9534f;
+}
+
+.contentbuilder-title.has-error textarea::-moz-placeholder {
+    color: #d9534f;
+}
+
+.contentbuilder-title.has-error textarea:-ms-input-placeholder {
+    color: #d9534f;
+}
+
+.contentbuilder-title textarea::-webkit-input-placeholder {
+    font-size: 30px;
+}
+
+.contentbuilder-title textarea:-moz-placeholder {
+    font-size: 30px;
+}
+
+.contentbuilder-title textarea::-moz-placeholder {
+    font-size: 30px;
+}
+
+.contentbuilder-title textarea:-ms-input-placeholder {
+    font-size: 30px;
+}
+
+.contentbuilder-content {
+    margin: 0;
+}
+
+.contentbuilder .focused,
+.contentbuilder-content .ui-dragbox-outlined.firefox > div:first-child {
+    outline: 1px dashed rgba(253, 160, 133, 0.7);
+    z-index: 1;
+}
+
+.contentbuilder-content .row-tool {
+    width: 40px;
+    margin-left: -23px;
+}
+
+.contentbuilder-content .row-tool > div {
+    background-color: rgba(253, 160, 133, 0.9);
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    line-height: 37px;
+    border-bottom: 1px solid #fff;
+}
+
+.contentbuilder-content .row-tool > div:hover {
+    background-color: rgba(253, 160, 133, 0.7);
+}
+
+.contentbuilder-content .row-tool > div:last-child {
+    border-bottom: none;
+}
+
+.contentbuilder-content .row-tool > div > i {
+    font-size: 17px;
+}
+
+.contentbuilder-content .row-tool > div.row-handle i {
+    font-size: 15px;
+}
+
+.contentbuilder-content .quote > i {
+    color: rgba(253, 160, 133, 0.9);
+}
+
+.contentbuilder-content pre {
+    background-color: #f7f7f7;
+    border-color: #ddd;
+    position: relative;
+    padding-top: 45px;
+}
+
+.contentbuilder-content pre span.code-mirror-language {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(253, 160, 133, 0.9);
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 5px 10px 5px 10px;
+}
+
+.contentbuilder-content pre a.code-mirror-copy {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(253, 160, 133, 0.9);
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+
+.contentbuilder-content pre a.code-mirror-copy:hover {
+    text-decoration: none;
+    background: rgba(253, 160, 133, 0.7);
+}
+
+.contentbuilder-content.empty {
+    border: rgba(253, 160, 133, 0.9) 1px dashed !important;
+}
+
+.contentbuilder-content.drop-zone.empty {
+    background: rgba(253, 160, 133, 0.1) !important;
+}
+
+
+.contentbuilder-content a {
+    color: #fda085;
+}
+
+.contentbuilder-content ul {
+    position: relative;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.contentbuilder-content ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.contentbuilder-content ul li:before {
+    display: inline-block;
+    position: absolute;
+    top: -3px;
+    left: 0px;
+    content: '■';
+    color: #fda085;
+    font-size: 15px;
+}
+
+.block-placeholder {
+    height: 15px;
+    background: rgba(253, 160, 133, 0.7);
+}
+
+.md-modal-handle {
+    margin: 0;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.md-modal .md-body input[type="text"],
+.md-modal .md-body textarea {
+    border: 0;
+}
+
+.md-modal .md-body input[type="text"]:focus,
+.md-modal .md-body textarea:focus {
+    border: 0;
+}
+
+.md-modal .md-footer button {
+    width: 50%;
+    border: 0;
+    border-radius: 0;
+    font-size: 18px !important;
+}
+
+.md-modal .md-footer button.primary,
+.md-modal .md-footer button#btnLinkOk {
+    background-color: rgba(253, 160, 133, 1.0);
+    color: #fff;
+}
+
+.md-modal .md-footer button.primary:hover,
+.md-modal .md-footer button#btnLinkOk:hover {
+    background-color: rgba(253, 160, 133, 0.7);
+}
+
+.md-modal .md-footer button.secondary {
+    background-color: rgba(249, 249, 249, 1.0);
+    color: #000;
+}
+
+.md-modal .md-footer button.secondary:hover {
+    background-color: rgba(249, 249, 249, 0.5);
+}
+
+.md-tabs > span {
+    padding: 10px 15px;
+}
+
+.md-tabs > .active {
+    background-color: rgba(253, 160, 133, 0.9);
+}
+
+#md-edittable {
+    width: 268px !important;
+}
+
+#inpTextColor,
+#inpCellBgColor,
+#inpCellTextColor,
+#inpCellBorderColor {
+    width: 100%;
+}
+
+#md-edittable .select2 {
+    width: 100% !important;
+}
+
+#md-delrowconfirm p {
+    font-size: 1.07rem;
+    padding: 15px;
+}
+
+#btnDelRowOk,
+#btnDelRowCancel {
+    font-size: 14px !important;
+    line-height: 15px;
+    height: auto;
+    padding: 15px 20px;
+    margin: 0px 15px;
+}
+
+#btnDelRowOk {
+    background-color: rgba(253, 160, 133, 1.0);
+    color: #fff;
+    border: none;
+}
+
+#btnDelRowOk:hover {
+    background-color: rgba(253, 160, 133, 0.7);
+    border: none;
+}
+
+#btnDelRowCancel {
+    background-color: rgba(249, 249, 249, 1.0);
+    color: #000;
+    border: none;
+}
+
+#btnDelRowCancel:hover {
+    background-color: rgba(249, 249, 249, 0.7);
+    border: none;
+}
+
+.rte-pop button {
+    padding: 11px;
+}
+
+.container .col-md-12 {
+    overflow-x: auto;
+    min-height: 0.01%;
+}

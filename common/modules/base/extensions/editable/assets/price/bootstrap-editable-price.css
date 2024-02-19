@@ -1,0 +1,54 @@
+.editable-price-container {
+    min-width: 155px;
+}
+
+.editable-price {
+	margin: 0px 0px 3px 0px;
+}
+
+.editable-price-price {
+	display: inline-block;
+    width: 100px;
+    vertical-align: top;
+    margin-bottom: 3px;
+}
+
+.editable-price-price input {
+    width: 100% !important;
+}
+
+.editable-price-currency {
+	display: inline-block;
+	margin-left: 5px;
+    vertical-align: top;
+}
+
+.editable-price-currency select {
+	width: 75px;
+}
+
+.editable-price-request {
+	margin: 5px 0px 5px 0px;
+    vertical-align: top;
+}
+
+.editable-price-request label {
+	display: table-cell;
+}
+
+.editable-price-request input {
+	display: inline-block;
+	margin: 3px 5px 0px 0px;
+	vertical-align: top;
+	width: auto;
+	height: auto;
+}
+
+.editable-price-request span {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.editable-price-request.checkbox-default {
+    padding-left: 3px;
+}

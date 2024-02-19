@@ -1,0 +1,3 @@
+/*
+ * Common CSS file for all appmake\widgets.
+ */.appmake-plugin-loading{width:25px;height:25px;background:url(../images/loading-plugin.gif) center left no-repeat}.appmake-hide{display:none}.appmake-input-group-hide .input-group-addon,.appmake-input-group-hide .input-group-btn{visibility:hidden}

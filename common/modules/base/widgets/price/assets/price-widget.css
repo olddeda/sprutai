@@ -1,0 +1,30 @@
+.price-widget .form-control {
+    display: block;
+}
+
+.price-widget .select2-container {
+    display: block;
+    _min-width: inherit !important;
+}
+
+.price-widget-input {
+    display: flex;
+    vertical-align: top;
+}
+
+.price-widget-input.is-request {
+    margin-bottom: 10px;
+}
+
+.price-widget-input-price {
+    flex: 1;
+}
+
+.price-widget-input-currency {
+    width: 70px;
+    margin-left: 10px;
+}
+
+.price-widget-input-request {
+    display: block;
+}

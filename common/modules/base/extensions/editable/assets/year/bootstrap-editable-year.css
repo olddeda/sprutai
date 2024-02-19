@@ -1,0 +1,12 @@
+.editable-year .col-sm-6:first-child {
+    padding-right: 4px;
+}
+
+.editable-year .col-sm-6:last-child {
+    padding-left: 4px;
+}
+
+.editable-year-from input,
+.editable-year-to input {
+    width: 65px !important;
+}

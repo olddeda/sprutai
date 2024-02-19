@@ -1,0 +1,54 @@
+.cropper-container .cropper-line {
+    background: #fff url(cropper.gif);
+    opacity: 0.4;
+}
+
+.cropper-container .cropper-point {
+    background-color: #333;
+    border: 1px solid #eee;
+    font-size: 1px;
+    width: 9px;
+    height: 9px;
+    opacity: 0.5;
+}
+
+.cropper-container .cropper-point.point-nw,
+.cropper-container .cropper-point.point-n,
+.cropper-container .cropper-point.point-ne,
+.cropper-container .cropper-point.point-w,
+.cropper-container .cropper-point.point-e,
+.cropper-container .cropper-point.point-sw,
+.cropper-container .cropper-point.point-s,
+.cropper-container .cropper-point.point-se {
+    width: 9px;
+    height: 9px;
+    opacity: 0.5;
+}
+
+.cropper-container .cropper-viewer {
+    outline: none;
+}
+
+.cropper-container .cropper-line.line-n {
+    top: 0;
+    height: 1px;
+}
+
+.cropper-container .cropper-line.line-s {
+    bottom: 0;
+    height: 1px;
+}
+
+.cropper-container .cropper-line.line-w {
+    left: 0;
+    width: 1px;
+}
+
+.cropper-container .cropper-line.line-e {
+    right: 0;
+    width: 1px;
+}
+
+.cropper-crop-box .cropper-view-box {
+    outline: none;
+}

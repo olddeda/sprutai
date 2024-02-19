@@ -1,0 +1,22 @@
+.editable-googlemap {
+
+}
+
+.editable-googlemap input[name='address'] {
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+#googlemap {
+    width: 400px;
+    height: 300px;
+}
+
+#googlemap .map-container {
+    width: 400px;
+    height: 300px;
+}
+
+.pac-container.pac-logo {
+    z-index: 99999;
+}

@@ -1,0 +1,1 @@
+{"name":"Not Found","message":"Страница не найдена.","code":0,"status":404,"type":"yii\\web\\NotFoundHttpException","previous":{"name":"Invalid Route","message":"Unable to resolve the request \"v1/auth\".","code":0,"type":"yii\\base\\InvalidRouteException"}}

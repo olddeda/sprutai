@@ -1,0 +1,5 @@
+.slim-img {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 5px;
+}

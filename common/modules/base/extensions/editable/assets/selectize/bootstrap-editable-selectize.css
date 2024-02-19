@@ -1,0 +1,9 @@
+.editable-selectize .selectize-input {
+    min-width: 200px;
+    max-width: 600px;
+}
+
+.editable-selectize .selectize-dropdown {
+    margin-right: 1px !important;
+    width: inherit !important;
+}

@@ -1,0 +1,54 @@
+div.code-toolbar pre {
+    padding-top: 40px;
+}
+
+div.code-toolbar > .toolbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+
+div.code-toolbar > .toolbar .toolbar-item {
+    position: absolute;
+}
+
+div.code-toolbar > .toolbar .toolbar-item span,
+div.code-toolbar > .toolbar .toolbar-item a {
+    display: block;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+div.code-toolbar > .toolbar .toolbar-item span {
+    background-color: rgba(253, 160, 133, 1.0);
+    color: #ffffff;
+    border-top-left-radius: 3px;
+}
+
+div.code-toolbar > .toolbar .toolbar-item a {
+    background-color: rgba(253, 160, 133, 1.0);
+    color: #ffffff;
+    border-top-right-radius: 3px;
+}
+
+div.code-toolbar > .toolbar .toolbar-item a:hover {
+    background-color: rgba(253, 160, 133, 0.7);
+    color: #ffffff;
+}
+
+div.code-toolbar > .toolbar .toolbar-item:first-child {
+    float: left;
+    top: 1px;
+    left: 1px;
+}
+
+div.code-toolbar > .toolbar .toolbar-item:last-child {
+    float: right;
+    top: 1px;
+    right: 1px;
+}
+
+.language-ruby .comment {
+    color: #a50;
+}

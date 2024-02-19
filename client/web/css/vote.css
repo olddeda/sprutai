@@ -1,0 +1,51 @@
+.vote .vote-btn.vote-up,
+.vote .vote-btn.vote-down {
+    color: #cccccc;
+}
+
+.vote .vote-btn.vote-up .fa,
+.vote .vote-btn.vote-down .fa {
+    font-size: 22px;
+    color: #cccccc;
+}
+
+.vote .vote-btn.vote-down:hover,
+.vote .vote-btn.vote-up:hover,
+.vote .vote-btn.vote-down:hover .fa,
+.vote .vote-btn.vote-up:hover .fa {
+    color: rgba(253, 160, 133, 0.7);
+    background: none;
+    text-decoration: none;
+}
+
+.vote .vote-btn.vote-active.vote-up,
+.vote .vote-btn.vote-active.vote-down,
+.vote .vote-btn.vote-active.vote-up .fa,
+.vote .vote-btn.vote-active.vote-down .fa {
+    background: none;
+    color: #fda085;
+    cursor: default;
+}
+
+.vote-toggle .vote-subscribe-author {
+    color: #fff;
+    background-color: #ff4040;
+    border-color: #ff2626;
+}
+
+.vote-toggle .vote-subscribe-author .vote-count {
+    background: none;
+    padding: 0;
+    font-weight: normal;
+    color: #fff;
+}
+
+.vote-toggle .vote-subscribe-author.vote-active {
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #eaeaea;
+}
+
+.vote-toggle .vote-subscribe-author.vote-active .vote-count {
+    color: #333333;
+}
